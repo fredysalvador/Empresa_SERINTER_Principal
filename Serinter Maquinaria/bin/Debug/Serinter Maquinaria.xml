@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SerinterMaquinaria
+</name>
+</assembly>
+<members>
+<member name="P:Serinter_Maquinaria.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Serinter_Maquinaria.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:Serinter_Maquinaria.My.Resources.Resources.Abierto">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Serinter_Maquinaria.My.Resources.Resources.Abierto1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Serinter_Maquinaria.My.Resources.Resources.Cerrado">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Serinter_Maquinaria.My.Resources.Resources.Cerrado1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Serinter_Maquinaria.My.Resources.Resources.subir">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Serinter_Maquinaria.My.Resources.Resources.subir2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Serinter_Maquinaria.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1.Generar_RemisionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1.Generar_RemisionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1.Generar_RemisionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.Generar_RemisionesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4.Generar_DatosMaquinaria2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4.Generar_DatosMaquinaria2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4.Generar_DatosMaquinaria2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.Generar_DatosMaquinaria2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7.Generar_DatosManoObr1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7.Generar_DatosManoObr1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7.Generar_DatosManoObr1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.Generar_DatosManoObr1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet.Generar_PaseSalidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet.Generar_PaseSalidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet.Generar_PaseSalidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSetTableAdapters.Generar_PaseSalidaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17.Generar_usuraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17.Generar_usuraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17.Generar_usuraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.Generar_usuraTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet17)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet17TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21.Generar_CotizacionCMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21.Generar_CotizacionCMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21.Generar_CotizacionCMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.Generar_CotizacionCMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet21)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet21TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11.Generar_CotizacionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11.Generar_CotizacionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11.Generar_CotizacionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.Generar_CotizacionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet11)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet11TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14.Generar_DatosMaquinariaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14.Generar_DatosMaquinariaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14.Generar_DatosMaquinariaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.Generar_DatosMaquinariaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet14)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet14TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9.Generar_usuraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9.Generar_usuraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9.Generar_usuraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.Generar_usuraTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3.Generar_DatosMaquinariaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3.Generar_DatosMaquinariaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3.Generar_DatosMaquinariaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.Generar_DatosMaquinariaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6.Generar_DatosMaquinaria2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6.Generar_DatosMaquinaria2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6.Generar_DatosMaquinaria2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.Generar_DatosMaquinaria2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23.Generar_MaxContrPrestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23.Generar_MaxContrPrestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23.Generar_MaxContrPrestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.Generar_MaxContrPrestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet23)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet23TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10.Generar_PaseSalidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10.Generar_PaseSalidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10.Generar_PaseSalidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.Generar_PaseSalidaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet10TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13.Generar_DatosMaquinaria2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13.Generar_DatosMaquinaria2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13.Generar_DatosMaquinaria2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.Generar_DatosMaquinaria2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet13)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet13TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16.Generar_DatosManoObr2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16.Generar_DatosManoObr2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16.Generar_DatosManoObr2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.Generar_DatosManoObr2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet16)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet16TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19.Generar_CotizacionCMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19.Generar_CotizacionCMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19.Generar_CotizacionCMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.Generar_CotizacionCMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet19)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet19TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20.Generar_CotizacionCMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20.Generar_CotizacionCMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20.Generar_CotizacionCMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.Generar_CotizacionCMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet20)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet20TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2.Generar_DatosMaquinariaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2.Generar_DatosMaquinariaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2.Generar_DatosMaquinariaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.Generar_DatosMaquinariaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5.Generar_DatosMaquinariaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5.Generar_DatosMaquinariaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5.Generar_DatosMaquinariaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.Generar_DatosMaquinariaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8.Generar_DatosManoObr2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8.Generar_DatosManoObr2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8.Generar_DatosManoObr2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.Generar_DatosManoObr2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22.Generar_RemisionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22.Generar_RemisionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22.Generar_RemisionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.Generar_RemisionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet22)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet22TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12.Generar_RemisionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12.Generar_RemisionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12.Generar_RemisionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.Generar_RemisionesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet12)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet12TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15.Generar_DatosManoObr1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15.Generar_DatosManoObr1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15.Generar_DatosManoObr1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.Generar_DatosManoObr1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet15)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet15TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18.Generar_CotizacionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18.Generar_CotizacionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18.Generar_CotizacionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.Generar_CotizacionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(Serinter_Maquinaria.SERINTERDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(Serinter_Maquinaria.SERINTERDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(Serinter_Maquinaria.SERINTERDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager.UpdateAll(Serinter_Maquinaria.SERINTERDataSet18)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Serinter_Maquinaria.SERINTERDataSet18TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

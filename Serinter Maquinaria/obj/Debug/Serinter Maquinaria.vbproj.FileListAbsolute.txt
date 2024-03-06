@@ -1,0 +1,145 @@
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.vbprojResolveAssemblyReference.cache
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.vbproj.ResolveComReference.cache
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.ContratoFrm.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.DatosCompletosPS.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.EstatusOrdenesCompras.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCambioCodigo.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImpr2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImpr3.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImprDL1.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImprHNL1.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImprHNL2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesvb.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmEstatusSolcitudes.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmFechasRetornoMqInv.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmGastosMaquinas.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmHistorialps.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmHojaSalidaImpr.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmIngresoVehiculos.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmInventariado.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmContPrivServicios.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmListadoOrdAgr.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr3.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr4.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr1.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr3.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr4.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoTotl1.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoTotl2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprUsura.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprUsura2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqObr.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqTotal.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaq.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqUsura.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmOrdenCompra.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmOrdenComprav2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmOrdendeCompraXm.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmRemisiones.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmHojaSalida.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmPrincipal.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmProveedores.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmRemisionesImp2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmRemisionesImpr.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSeleccionVhMan.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudes.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudesv2.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudesXm.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudImpr.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmUsuarios.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmLogin.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.ListOrdenCantidad.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.Resources.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.SolicitudRepuesto.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.SolicitudTrabj.resources
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.vbproj.GenerateResource.Cache
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\RdlCompile.cache
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\RdlCompile.compiled
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.exe.config
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.exe.manifest
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.application
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.exe
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.pdb
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.xml
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.exe.manifest
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.application
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.exe
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.xml
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.pdb
+C:\Users\Fredy Salvador\Documents\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.DGVORDENESCOMPRAS.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.exe.config
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.exe.manifest
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.application
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.exe
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.pdb
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\bin\Debug\Serinter Maquinaria.xml
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.vbprojResolveAssemblyReference.cache
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.vbproj.ResolveComReference.cache
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.ContratoFrm.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.DatosCompletosPS.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.DGVORDENESCOMPRAS.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.EstatusOrdenesCompras.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCambioCodigo.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImpr2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImpr3.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImprDL1.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImprHNL1.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesImprHNL2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmCotizacionesvb.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmEstatusSolcitudes.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmFechasRetornoMqInv.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmGastosMaquinas.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmHistorialps.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmHojaSalidaImpr.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmIngresoVehiculos.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmInventariado.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmContPrivServicios.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmListadoOrdAgr.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr3.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr4.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr1.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr3.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoObr4.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoTotl1.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprManoTotl2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprUsura.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImprUsura2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqObr.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqTotal.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaq.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqImpr2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmMantenimientosMaqUsura.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmOrdenCompra.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmOrdenComprav2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmOrdendeCompraXm.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmRemisiones.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmHojaSalida.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmPrincipal.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmProveedores.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmRemisionesImp2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmRemisionesImpr.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSeleccionVhMan.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudes.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudesv2.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudesXm.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmSolicitudImpr.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmUsuarios.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmLogin.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.ListOrdenCantidad.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.Resources.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.SolicitudRepuesto.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.SolicitudTrabj.resources
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.vbproj.GenerateResource.Cache
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\RdlCompile.cache
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\RdlCompile.compiled
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.exe.manifest
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.application
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.exe
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.xml
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter Maquinaria.pdb
+C:\Users\Fredy Salvador\Repaldo_Necesario\OneDrive\Visual Studio 2013\Projects\Serinter Maquinaria\Serinter Maquinaria\obj\Debug\Serinter_Maquinaria.FrmHojaSalidaImpr2.resources

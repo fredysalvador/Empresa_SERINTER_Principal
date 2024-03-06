@@ -1,0 +1,1465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{403C645A-73AE-4E93-9FD4-50B9B0FC1F4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Serinter_Maquinaria.My.MyApplication</StartupObject>
+    <RootNamespace>Serinter_Maquinaria</RootNamespace>
+    <AssemblyName>Serinter Maquinaria</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\Fredy Salvador\Documents\Respaldo_Serinter\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/Serinter Maquinaria/</UpdateUrl>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>71</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Serinter Maquinaria.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Serinter Maquinaria.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CF80B05FC595A17EFFE5DBC32A3DA24979B6AD2A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Serinter Maquinaria_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SER1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BWCMM, Version=1.0.7218.32363, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BWCMM.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.SqlServer.DTSRuntimeWrap.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.SqlServer.ManagedDTS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ContratoFrm.Designer.vb">
+      <DependentUpon>ContratoFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContratoFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosCompletosPS.Designer.vb">
+      <DependentUpon>DatosCompletosPS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatosCompletosPS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declaraciones.vb" />
+    <Compile Include="DGVORDENESCOMPRAS.Designer.vb">
+      <DependentUpon>DGVORDENESCOMPRAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DGVORDENESCOMPRAS.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EstatusOrdenesCompras.Designer.vb">
+      <DependentUpon>EstatusOrdenesCompras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EstatusOrdenesCompras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCambioCodigo.Designer.vb">
+      <DependentUpon>FrmCambioCodigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCambioCodigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCotizacionesImpr2.Designer.vb">
+      <DependentUpon>FrmCotizacionesImpr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCotizacionesImpr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCotizacionesImpr3.Designer.vb">
+      <DependentUpon>FrmCotizacionesImpr3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCotizacionesImpr3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCotizacionesImprDL1.Designer.vb">
+      <DependentUpon>FrmCotizacionesImprDL1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCotizacionesImprDL1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCotizacionesImprHNL1.Designer.vb">
+      <DependentUpon>FrmCotizacionesImprHNL1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCotizacionesImprHNL1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCotizacionesImprHNL2.Designer.vb">
+      <DependentUpon>FrmCotizacionesImprHNL2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCotizacionesImprHNL2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCotizacionesvb.Designer.vb">
+      <DependentUpon>FrmCotizacionesvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCotizacionesvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEstatusSolcitudes.Designer.vb">
+      <DependentUpon>FrmEstatusSolcitudes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEstatusSolcitudes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFechasRetornoMqInv.Designer.vb">
+      <DependentUpon>FrmFechasRetornoMqInv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFechasRetornoMqInv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGastosMaquinas.Designer.vb">
+      <DependentUpon>FrmGastosMaquinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGastosMaquinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHistorialps.Designer.vb">
+      <DependentUpon>FrmHistorialps.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHistorialps.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHojaSalidaImpr.Designer.vb">
+      <DependentUpon>FrmHojaSalidaImpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHojaSalidaImpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHojaSalidaImpr2.Designer.vb">
+      <DependentUpon>FrmHojaSalidaImpr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHojaSalidaImpr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIngresoVehiculos.Designer.vb">
+      <DependentUpon>FrmIngresoVehiculos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIngresoVehiculos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInventariado.Designer.vb">
+      <DependentUpon>FrmInventariado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInventariado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContPrivServicios.Designer.vb">
+      <DependentUpon>FrmContPrivServicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContPrivServicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoOrdAgr.Designer.vb">
+      <DependentUpon>FrmListadoOrdAgr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoOrdAgr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr3.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImpr3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr4.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImpr4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr1.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr2.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr3.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr4.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoObr4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoTotl1.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprManoTotl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoTotl1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoTotl2.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprManoTotl2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprManoTotl2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprUsura.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprUsura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprUsura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprUsura2.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImprUsura2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImprUsura2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqObr.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqObr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqObr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqTotal.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqTotal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqTotal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaq.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr2.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqImpr2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqImpr2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqUsura.Designer.vb">
+      <DependentUpon>FrmMantenimientosMaqUsura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientosMaqUsura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdenCompra.Designer.vb">
+      <DependentUpon>FrmOrdenCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdenCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdenComprav2.Designer.vb">
+      <DependentUpon>FrmOrdenComprav2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdenComprav2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrdendeCompraXm.Designer.vb">
+      <DependentUpon>FrmOrdendeCompraXm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrdendeCompraXm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRemisiones.Designer.vb">
+      <DependentUpon>FrmRemisiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRemisiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHojaSalida.Designer.vb">
+      <DependentUpon>FrmHojaSalida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHojaSalida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedores.Designer.vb">
+      <DependentUpon>FrmProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRemisionesImp2.Designer.vb">
+      <DependentUpon>FrmRemisionesImp2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRemisionesImp2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRemisionesImpr.Designer.vb">
+      <DependentUpon>FrmRemisionesImpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRemisionesImpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSeleccionVhMan.Designer.vb">
+      <DependentUpon>FrmSeleccionVhMan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSeleccionVhMan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSolicitudes.Designer.vb">
+      <DependentUpon>FrmSolicitudes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSolicitudes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSolicitudesv2..Designer.vb">
+      <DependentUpon>FrmSolicitudesv2..vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSolicitudesv2..vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSolicitudesXm.Designer.vb">
+      <DependentUpon>FrmSolicitudesXm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSolicitudesXm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSolicitudImpr.Designer.vb">
+      <DependentUpon>FrmSolicitudImpr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSolicitudImpr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.vb">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOrdenCantidad.Designer.vb">
+      <DependentUpon>ListOrdenCantidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListOrdenCantidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Application2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SERINTERDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet.vb">
+      <DependentUpon>SERINTERDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet10.vb">
+      <DependentUpon>SERINTERDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet2.vb">
+      <DependentUpon>SERINTERDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SERINTERDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SERINTERDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SolicitudRepuesto.Designer.vb">
+      <DependentUpon>SolicitudRepuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SolicitudRepuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolicitudTrabj.Designer.vb">
+      <DependentUpon>SolicitudTrabj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SolicitudTrabj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContratoFrm.resx">
+      <DependentUpon>ContratoFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContratoPriv.rdlc" />
+    <EmbeddedResource Include="ContratoPrivado.rdlc" />
+    <EmbeddedResource Include="CotizacionesSVDolares.rdlc" />
+    <EmbeddedResource Include="CotizacionesSVLempiras.rdlc" />
+    <EmbeddedResource Include="CotizacionesSVLempiras2.rdlc" />
+    <EmbeddedResource Include="CotizacionesSVLempiras3.rdlc" />
+    <EmbeddedResource Include="CotizacionSv1.rdlc" />
+    <EmbeddedResource Include="CotizacionSv2.rdlc" />
+    <EmbeddedResource Include="DatosCompletosPS.resx">
+      <DependentUpon>DatosCompletosPS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DGVORDENESCOMPRAS.resx">
+      <DependentUpon>DGVORDENESCOMPRAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstatusOrdenesCompras.resx">
+      <DependentUpon>EstatusOrdenesCompras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCambioCodigo.resx">
+      <DependentUpon>FrmCambioCodigo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCotizacionesImpr2.resx">
+      <DependentUpon>FrmCotizacionesImpr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCotizacionesImpr3.resx">
+      <DependentUpon>FrmCotizacionesImpr3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCotizacionesImprDL1.resx">
+      <DependentUpon>FrmCotizacionesImprDL1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCotizacionesImprHNL1.resx">
+      <DependentUpon>FrmCotizacionesImprHNL1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCotizacionesImprHNL2.resx">
+      <DependentUpon>FrmCotizacionesImprHNL2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCotizacionesvb.resx">
+      <DependentUpon>FrmCotizacionesvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEstatusSolcitudes.resx">
+      <DependentUpon>FrmEstatusSolcitudes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFechasRetornoMqInv.resx">
+      <DependentUpon>FrmFechasRetornoMqInv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGastosMaquinas.resx">
+      <DependentUpon>FrmGastosMaquinas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorialps.resx">
+      <DependentUpon>FrmHistorialps.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHojaSalidaImpr.resx">
+      <DependentUpon>FrmHojaSalidaImpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHojaSalidaImpr2.resx">
+      <DependentUpon>FrmHojaSalidaImpr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHojaSalidaV6.rdlc" />
+    <EmbeddedResource Include="FrmHojaSalidaV7.rdlc" />
+    <EmbeddedResource Include="FrmIngresoVehiculos.resx">
+      <DependentUpon>FrmIngresoVehiculos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInventariado.resx">
+      <DependentUpon>FrmInventariado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContPrivServicios.resx">
+      <DependentUpon>FrmContPrivServicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoOrdAgr.resx">
+      <DependentUpon>FrmListadoOrdAgr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImpr3.resx">
+      <DependentUpon>FrmMantenimientosMaqImpr3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImpr4.resx">
+      <DependentUpon>FrmMantenimientosMaqImpr4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprManoObr1.resx">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprManoObr2.resx">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprManoObr3.resx">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprManoObr4.resx">
+      <DependentUpon>FrmMantenimientosMaqImprManoObr4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprManoTotl1.resx">
+      <DependentUpon>FrmMantenimientosMaqImprManoTotl1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprManoTotl2.resx">
+      <DependentUpon>FrmMantenimientosMaqImprManoTotl2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprUsura.resx">
+      <DependentUpon>FrmMantenimientosMaqImprUsura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImprUsura2.resx">
+      <DependentUpon>FrmMantenimientosMaqImprUsura2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqObr.resx">
+      <DependentUpon>FrmMantenimientosMaqObr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqObr1.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqObr2.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqObr3.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqObr4.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqTotal.resx">
+      <DependentUpon>FrmMantenimientosMaqTotal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaq.resx">
+      <DependentUpon>FrmMantenimientosMaq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImpr.resx">
+      <DependentUpon>FrmMantenimientosMaqImpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqImpr2.resx">
+      <DependentUpon>FrmMantenimientosMaqImpr2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqUsura.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqUsura.resx">
+      <DependentUpon>FrmMantenimientosMaqUsura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientosMaqUsura2.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqV10.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqV7.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqV8.rdlc" />
+    <EmbeddedResource Include="FrmMantenimientosMaqV9.rdlc" />
+    <EmbeddedResource Include="FrmOrdenCompra.resx">
+      <DependentUpon>FrmOrdenCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrdenComprav2.resx">
+      <DependentUpon>FrmOrdenComprav2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHojaSalidaV5.rdlc" />
+    <EmbeddedResource Include="FrmOrdendeCompraXm.resx">
+      <DependentUpon>FrmOrdendeCompraXm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRemisiones.resx">
+      <DependentUpon>FrmRemisiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHojaSalida.resx">
+      <DependentUpon>FrmHojaSalida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRemisionesImp2.resx">
+      <DependentUpon>FrmRemisionesImp2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRemisionesImpr.resx">
+      <DependentUpon>FrmRemisionesImpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRemisionesV6.rdlc" />
+    <EmbeddedResource Include="FrmRemisionesV7.rdlc" />
+    <EmbeddedResource Include="FrmRemisionesV8.rdlc" />
+    <EmbeddedResource Include="FrmSeleccionVhMan.resx">
+      <DependentUpon>FrmSeleccionVhMan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSolicitudes.resx">
+      <DependentUpon>FrmSolicitudes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSolicitudesv2..resx">
+      <DependentUpon>FrmSolicitudesv2..vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSolicitudesXm.resx">
+      <DependentUpon>FrmSolicitudesXm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSolicitudImpr.resx">
+      <DependentUpon>FrmSolicitudImpr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOrdenCantidad.resx">
+      <DependentUpon>ListOrdenCantidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenes.rdlc" />
+    <EmbeddedResource Include="HojaSalida.rdlc" />
+    <EmbeddedResource Include="HojaSalidaSRV.rdlc" />
+    <EmbeddedResource Include="Remisiones.rdlc" />
+    <EmbeddedResource Include="RemisionesSV.rdlc" />
+    <EmbeddedResource Include="Solicitud.rdlc" />
+    <EmbeddedResource Include="SolicitudRepuesto.resx">
+      <DependentUpon>SolicitudRepuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolicitudTrabj.resx">
+      <DependentUpon>SolicitudTrabj.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Serinter Maquinaria_ClaveTemporal.pfx" />
+    <None Include="SERINTERDataSet.xsc">
+      <DependentUpon>SERINTERDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet.xss">
+      <DependentUpon>SERINTERDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet1.xsc">
+      <DependentUpon>SERINTERDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet1.xss">
+      <DependentUpon>SERINTERDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet10.xsc">
+      <DependentUpon>SERINTERDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet10.xss">
+      <DependentUpon>SERINTERDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet11.xsc">
+      <DependentUpon>SERINTERDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet11.xss">
+      <DependentUpon>SERINTERDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet12.xsc">
+      <DependentUpon>SERINTERDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet12.xss">
+      <DependentUpon>SERINTERDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet13.xsc">
+      <DependentUpon>SERINTERDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet13.xss">
+      <DependentUpon>SERINTERDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet14.xsc">
+      <DependentUpon>SERINTERDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet14.xss">
+      <DependentUpon>SERINTERDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet15.xsc">
+      <DependentUpon>SERINTERDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet15.xss">
+      <DependentUpon>SERINTERDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet16.xsc">
+      <DependentUpon>SERINTERDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet16.xss">
+      <DependentUpon>SERINTERDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet17.xsc">
+      <DependentUpon>SERINTERDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet17.xss">
+      <DependentUpon>SERINTERDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet18.xsc">
+      <DependentUpon>SERINTERDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet18.xss">
+      <DependentUpon>SERINTERDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet19.xsc">
+      <DependentUpon>SERINTERDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet19.xss">
+      <DependentUpon>SERINTERDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet2.xsc">
+      <DependentUpon>SERINTERDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet2.xss">
+      <DependentUpon>SERINTERDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet20.xsc">
+      <DependentUpon>SERINTERDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet20.xss">
+      <DependentUpon>SERINTERDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet21.xsc">
+      <DependentUpon>SERINTERDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet21.xss">
+      <DependentUpon>SERINTERDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet22.xsc">
+      <DependentUpon>SERINTERDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet22.xss">
+      <DependentUpon>SERINTERDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet23.xsc">
+      <DependentUpon>SERINTERDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet23.xss">
+      <DependentUpon>SERINTERDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet3.xsc">
+      <DependentUpon>SERINTERDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet3.xss">
+      <DependentUpon>SERINTERDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet4.xsc">
+      <DependentUpon>SERINTERDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet4.xss">
+      <DependentUpon>SERINTERDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet5.xsc">
+      <DependentUpon>SERINTERDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet5.xss">
+      <DependentUpon>SERINTERDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet6.xsc">
+      <DependentUpon>SERINTERDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet6.xss">
+      <DependentUpon>SERINTERDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet7.xsc">
+      <DependentUpon>SERINTERDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet7.xss">
+      <DependentUpon>SERINTERDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet8.xsc">
+      <DependentUpon>SERINTERDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet8.xss">
+      <DependentUpon>SERINTERDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet9.xsc">
+      <DependentUpon>SERINTERDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="SERINTERDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SERINTERDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SERINTERDataSet9.xss">
+      <DependentUpon>SERINTERDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abierto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cerrado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Copreca-PhotoRoom.ico" />
+    <Content Include="SER1.ico" />
+    <Content Include="SERINTER.ico" />
+    <None Include="Resources\subir2.jpg" />
+    <None Include="Resources\subir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MaterialSkin">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Diagnostics.STrace">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.SqlTDiagM">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
